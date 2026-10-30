@@ -1,21 +1,32 @@
 # VAXIS - Death Stranding 2 Enhanced Graphics & LOD Patcher
 
-This patcher gives you the following improvments to graphics beyond the "very high" setting from vanilla game.
+This patcher gives you the following improvements to several graphics settings beyond the "very high" setting from vanilla game.
 
+## Improvements
 
-Model detail Lod.
-Object Draw Distance.
-Vegetation and Rocks Draw Distance.
-Terrain Detail Distance and Lod Steps.
-Detailed Ground Materials.
-Higher detailed World Tiles.
-Higher Sun Shadow Cascades.
-Higher quality Near Sun Shadow Maps.
-Higher Mesh Details and Lod.
-Higher Volumetric Light Samples.
-Light Shadow Distance.
-Shadow filtering.
-Ocean "Tar" Draw distance and detail.
+All presets:
+- Model detail (LOD) distance
+- Object draw distance
+- Vegetation and rocks draw distance
+- Terrain detail distance
+- Terrain LOD steps
+- High and mid detail world tiles
+- Instanced mesh detail and draw distance
+- Third sun shadow cascade
+- Light shadow distance
+- Light fade-out distance
+- Ocean wave detail distance
+- Impact effect distance
+
+Ultra and Extreme also add:
+- Sharper near sun shadows
+- Sun volumetric light quality
+- Light shadow filtering quality
+- Light volumetric quality
+
+Extreme also adds:
+- Terrain mesh range
+- Detailed ground materials at longer range
 
 
 
