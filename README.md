@@ -41,7 +41,7 @@ Extreme also adds:
   so presets never stack.
 
 
-## PRESETS
+## PRESETS DETAILS
 
 ### 01 Enhanced (light)
 
