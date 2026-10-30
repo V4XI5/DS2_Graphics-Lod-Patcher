@@ -38,7 +38,7 @@ Death Stranding 2: On the Beach. Graphics and LOD.
 - +2 high, +4 mid detail tiles
 - 3 cascades, 4096 shadow map
 - 2x light shadows, sharper
-- 2x ocean wave detail
+- 2x "tar ocean" LOD distance.
 
 ### 03 Extreme (highest, may cause issues)
 
