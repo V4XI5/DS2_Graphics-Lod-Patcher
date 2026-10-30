@@ -2,11 +2,12 @@
 
 This patcher gives you the following improvments to graphics beyond the "very high" setting from vanilla game.
 
+
 Model detail Lod.
 Object Draw Distance.
 Vegetation and Rocks Draw Distance.
 Terrain Detail Distance and Lod Steps.
-Detailed GRound Materials.
+Detailed Ground Materials.
 Higher detailed World Tiles.
 Higher Sun Shadow Cascades.
 Higher quality Near Sun Shadow Maps.
