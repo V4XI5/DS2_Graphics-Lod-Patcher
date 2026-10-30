@@ -1,10 +1,50 @@
-# VAXIS - Death Stranding 2 Graphics & LOD Patcher (source)
+# VAXIS - Death Stranding 2 Graphics & LOD Patcher
 
-Source for the VAXIS patcher v1.0.0: a Windows GUI that installs one of three graphics and LOD
-presets (Enhanced, Ultra, Extreme) into Death Stranding 2: On the Beach, and with the ability to remove it again.
+Improves draw distance, level of detail (LOD), terrain, shadows and lighting in
+Death Stranding 2: On the Beach. Graphics and LOD.
 
-Created by VAXIS.
 
+
+## INSTALL
+
+  1. Close the game completely.
+  2. Run VAXIS_DS2_Patcher.exe. It finds a Steam install automatically. If it does not,
+     click Browse and select the folder that contains DS2.exe.
+  3. Pick a preset and click Install. This takes one to two minutes.
+
+  To switch presets, install another one. The patcher restores the original data first,
+  so presets never stack.
+
+
+## PRESETS
+
+  01 Enhanced (light)
+     - 2x model detail distance
+     - 1.5-2x object draw distance
+     - 1.5x vegetation and rocks
+     - 1.5x terrain detail
+     - +2 high, +2 mid detail tiles
+     - 3 sun shadow cascades
+     - 1.5x light shadow distance
+     - 1.5x ocean wave detail
+
+  02 Ultra (recommended)
+     - 4x model detail distance
+     - 2-3x object draw distance
+     - 2x vegetation and rocks
+     - 2x terrain detail
+     - +2 high, +4 mid detail tiles
+     - 3 cascades, 4096 shadow map
+     - 2x light shadows, sharper
+     - 2x tar wave movement.
+
+  03 Extreme (highest) (may cause issues)
+     Everything from preset 2, plus:
+     - 4x terrain detail
+     - 4x terrain mesh range
+     - 3x ground material distance
+     - +4 high, +6 mid detail tiles
+     - Best with GPU's with 16 GB of VRAM
 
 
 ## How it works
@@ -81,14 +121,6 @@ The version comes from `VERSION` in `vaxis_core.py`.
 python vaxis/shot.py out.png selftest.txt "<full path to VAXIS_DS2_Patcher.exe>"
 ```
 
-
-## Fonts
-
-The GUI uses two of the game's fonts, EX PS Medium Neon and BO CD Mono Medium. No font files are
-included. At startup `game_fonts.py` reads them from the player's own game files, checks their
-hashes, converts them to TrueType and registers them for the patcher process only (the temporary
-files are deleted on exit). When the game folder is unknown, the GUI falls back to Segoe UI and
-Consolas until a folder is chosen.
 
 ## Rebuilding the presets
 
