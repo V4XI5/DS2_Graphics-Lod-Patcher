@@ -1,4 +1,4 @@
-# VAXIS - Death Stranding 2 Graphics & LOD Patcher
+# VAXIS - Death Stranding 2 Enhanced Graphics & LOD Patcher
 
 Improves draw distance, level of detail (LOD), terrain, shadows and lighting in
 Death Stranding 2: On the Beach. Graphics and LOD.
@@ -18,33 +18,37 @@ Death Stranding 2: On the Beach. Graphics and LOD.
 
 ## PRESETS
 
-  01 Enhanced (light)
-     - 2x model detail distance
-     - 1.5-2x object draw distance
-     - 1.5x vegetation and rocks
-     - 1.5x terrain detail
-     - +2 high, +2 mid detail tiles
-     - 3 sun shadow cascades
-     - 1.5x light shadow distance
-     - 1.5x ocean wave detail
+### 01 Enhanced (light)
 
-  02 Ultra (recommended)
-     - 4x model detail distance
-     - 2-3x object draw distance
-     - 2x vegetation and rocks
-     - 2x terrain detail
-     - +2 high, +4 mid detail tiles
-     - 3 cascades, 4096 shadow map
-     - 2x light shadows, sharper
-     - 2x tar wave movement.
+- 2x model detail distance
+- 1.5-2x object draw distance
+- 1.5x vegetation and rocks
+- 1.5x terrain detail
+- +2 high, +2 mid detail tiles
+- 3 sun shadow cascades
+- 1.5x light shadow distance
+- 1.5x ocean wave detail
 
-  03 Extreme (highest) (may cause issues)
-     Everything from preset 2, plus:
-     - 4x terrain detail
-     - 4x terrain mesh range
-     - 3x ground material distance
-     - +4 high, +6 mid detail tiles
-     - Best with GPU's with 16 GB of VRAM
+### 02 Ultra (recommended)
+
+- 4x model detail distance
+- 2-3x object draw distance
+- 2x vegetation and rocks
+- 2x terrain detail
+- +2 high, +4 mid detail tiles
+- 3 cascades, 4096 shadow map
+- 2x light shadows, sharper
+- 2x ocean wave detail
+
+### 03 Extreme (highest, may cause issues)
+
+Everything from preset 2, plus:
+
+- 4x terrain detail
+- 4x terrain mesh range
+- 3x ground material distance
+- +4 high, +6 mid detail tiles
+- Best with GPUs with 16 GB of VRAM
 
 
 ## How it works
