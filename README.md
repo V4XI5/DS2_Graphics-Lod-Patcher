@@ -5,7 +5,7 @@ presets (Enhanced, Ultra, Extreme) into Death Stranding 2: On the Beach, and wit
 
 Created by VAXIS.
 
-## Layout
+
 
 ## How it works
 
@@ -21,6 +21,8 @@ Every preset is a list of same-size value edits inside the game's DSAR archives
 Uninstall writes the original chunks and rows back, only where the data is still exactly what
 the patcher wrote or the original. Installing another preset uninstalls the current one first.
 
+
+## Layout
 Preset files (`.vxp`) are LZMA-compressed JSON:
 `{"format": 1, "count": n, "files": {archive: [[offset, old_hex, new_hex], ...]}}`.
 
